@@ -1,6 +1,8 @@
 h1, p {
 	color: gray;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Futura", Helvetica, Arial, sans-serif;
+	text-align: center;
+
 }
 body {
 	background-color: #FFEBCD;
