@@ -1,6 +1,6 @@
 h1, p {
 	color: gray;
-	font: Helvetica;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
 	background-color: #FFEBCD;
