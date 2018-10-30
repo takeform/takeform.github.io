@@ -20,6 +20,10 @@ h3 {
 	font-weight: normal;
 	margin-bottom:50px;
 }	 
+h4 {
+	font-size:16px;
+	font-weight:bold;
+}
 
 img {	
 	width: 50%;
@@ -71,15 +75,22 @@ section.product {
 }
 div.button {
 	color:white;
-	background:black;
-	width: 100px;
-	height:50px;
+	background:rgba(0,0,0,0.2);
+	width:100px;
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
+	padding:10px;
 
 }
 a.button {
 	color:white;
 	margin:auto;
+
+}
+section.welcome {
+	font-family:"Crimson Text";
+	font-size:13px;
+	padding:20px 300px 45px 300px;
+
 }
