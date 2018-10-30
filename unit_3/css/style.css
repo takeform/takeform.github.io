@@ -36,14 +36,7 @@ nav {margin:auto;
 	background: #FFD9B1;
 	color:black;
 }
-nav.cart {
-	float:left;
-	
-}
 
-nav.menu {
-
-}
 
 ul {
 	padding:20px 20px;
@@ -88,4 +81,5 @@ div.button {
 }
 a.button {
 	color:white;
+	margin:auto;
 }
