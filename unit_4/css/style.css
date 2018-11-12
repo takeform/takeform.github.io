@@ -13,9 +13,9 @@ body {
 }
 h1 { 
 	font-size:50px;
-	font-weight:normal;
+	font-weight:bold;
 	margin-top:50px;
-	font-family:"Rubik Mono One";
+	font-family:Futura;
 	letter-spacing:0px;
 }
 h3 {
@@ -25,8 +25,7 @@ h3 {
 	font-weight: bold;
 	margin-bottom:50px;
 	letter-spacing:0.1em;
-	color:yellow;
-
+	color:white;
 }	 
 h4 {
 	font-size:16px;
@@ -42,11 +41,13 @@ a {
 	color:black;
 	text-decoration: none;
 	font-size: 16px;
-	padding:30px;
  }	
 nav {
 	margin:auto;
 	background: #E8E8E8;
+}
+nav a, footer a {
+	padding: 30px;
 }
 ul {
 	margin: auto;
@@ -58,7 +59,8 @@ li {
 }
 header {
 	margin-bottom:30px;
-	background-image: url("../images/group_partner_3.jpg");
+	/*background-image: url("../images/terrazzo_background.png");*/
+	background:#C8C1C1;
 	background-size:cover;
 }
 footer {
@@ -68,7 +70,7 @@ footer {
 section.product {
 	padding-bottom:50px;
 }
-div.button {
+.button {
 	color:white;
 	background:rgba(0,0,0,0.2);
 	width:100px;
@@ -77,16 +79,29 @@ div.button {
 	margin-bottom:30px;
 	padding:10px;
 }
-section.welcome {
+.button a {
+	margin:30px;
+	display:inline;
+}
+.welcome p {
 	font-family:"Crimson Text";
-	font-size:14px;
-	padding:20px 400px 45px 400px;
-
+	width:50%;
+	text-align:left;
+	margin:auto;
+	letter-spacing:0px;
+}
+.welcome {
+	margin:30px;
 }
 .cart {
-	background-color:#E8E8E8;
+	background-color:black;
 	text-align:right;
-	padding:30px;
+	padding:5px;
+}
+.cart a {
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
 }
 #about {
 	background-color:#CEF1FF;
@@ -99,6 +114,5 @@ section.welcome {
 a:hover {
 	color:gray;
 	background:yellow;
-	padding:30px;
 }
 
