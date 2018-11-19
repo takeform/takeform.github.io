@@ -1,0 +1,190 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	/*border: 2px solid black;*/
+}
+body {	
+	color:black;
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	background: white;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 16px;
+}
+h1 { 
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	font-family: Futura;
+	/*letter-spacing: 0px;*/
+	padding: 1.5em;
+}
+h3 {
+	font-size: 16px;
+	padding-top:  3em;
+	/*font-family: "Crimson Text";*/
+	font-weight: normal;
+	letter-spacing: 0.09em;
+	color: #000000;
+}	 
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+p {
+	letter-spacing: 0.15em;
+}
+.product img {	
+	/*width: 100%;*/
+	object-fit: cover;
+ 	width: 400px;
+  	height: 400px;
+}
+a { 
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 0.15em;
+ }	
+nav {
+	margin: auto;
+	background: #ffffff;
+	/*border: 1px solid black;*/
+	margin-bottom: 0px;
+	border-bottom: 3px solid #FFE6C8;
+}
+nav a, footer a {
+	padding: 30px;
+	font-family: "Crimson Text", Georgia, serif;
+	font-size: 16px;
+	letter-spacing: 0.15em;
+}
+/*nav a {
+	display: block;
+}*/
+ul {
+	margin: auto;
+	padding: 30px;
+}
+li {
+	text-align: center;
+	display: inline;
+}
+header {
+	margin-bottom: 0px;
+	/*background-image: url("../images/terrazzo_background.png");*/
+	background: white;
+	background-size: cover;
+}
+footer {
+	background-color: #E8E8E8;
+}
+.product {
+	padding: 100px;
+	/*width: 100%;*/
+	margin: auto;
+	display: inline-block;
+}
+.button {
+	color:white;
+	background:rgba(0,0,0,0.2);
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:10px;
+	display: inline-block;
+}
+.button a {
+	margin:30px;
+	display:inline;
+	font-family: Futura, Helvetica, Arial, san-serif;
+}
+.welcome p {
+	font-family:"Crimson Text", Georgia, serif;
+	width:50%;
+	text-align:left;
+	margin:auto;
+	letter-spacing:0px;
+}
+.welcome {
+	margin:30px;
+}
+.cart_right, .cart_left {
+	/*background-color: #e8e8e8;*/
+	text-align:right;
+	padding:5px;
+}
+.cart_right a, .cart_left a {
+	padding:5px;
+	color: #a8a8a8;
+	font-family: "Crimson Text", Georgia, serif;
+	font-weight: normal;
+	/*display: block;*/
+	margin: 5px;
+}
+.cart_left {
+	float: left;
+	text-align: left;
+}
+.cart_right {
+	float: right;
+	text-align: right;
+}
+#about {
+	background-color:#CEF1FF;
+	padding: 50px 0px;
+	background-image: url("../images/luiny_shells.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+#about p {
+	background-color: #E8E8E8;
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	font-family:"Crimson Text", Georgia, serif;
+}
+#about h2 {
+	font-weight: black;
+	font-family:"Crimson Text", Georgia, serif;
+}
+a:hover {
+	background: #FFE6C8;
+}
+#two_column {
+    /*background-color: #FFB7CF;
+    border: 1px black solid;*/
+    padding: 20px;
+}
+#left {
+    /*background-color: #E582A2;
+    border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+#right {
+    /*background-color: #E55B88;
+    border: 1px black solid;*/
+    padding: 20px;
+    float: right;
+    width: 50%;
+}
+#about h2 {
+	padding: 20px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+img {
+	margin: 0;
+	width: 100%;
+	background: cover;
+}

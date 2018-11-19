@@ -1,49 +1,50 @@
 * { 
-	margin:0; 
-	padding:0; 
-	box-sizing:border-box; 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	border: 2px solid black;
 }
 body {	
 	color:black;
-	font-family:Futura, Helvetica, Arial, sans-serif;
+	font-family: Futura, Helvetica, Arial, sans-serif;
 	background: white;
 	text-align: center;
-	letter-spacing:0.2em;
-	font-size:16px;
+	letter-spacing: 0.2em;
+	font-size: 16px;
 }
 h1 { 
-	font-size:50px;
-	font-weight:bold;
-	margin-top:50px;
-	font-family:Futura;
-	letter-spacing:0px;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+	font-family: Futura;
+	/*letter-spacing: 0px;*/
 }
 h3 {
 	font-size: 16px;
-	padding-top:20px;
-	font-family:"Crimson Text";
+	padding-top:  20px;
+	font-family: "Crimson Text";
 	font-weight: bold;
-	margin-bottom:50px;
-	letter-spacing:0.1em;
-	color:white;
+	margin-bottom: 50px;
+	letter-spacing: 0.1em;
+	color: white;
 }	 
 h4 {
-	font-size:16px;
-	font-weight:bold;
+	font-size: 16px;
+	font-weight: bold;
 }
 p {
-	letter-spacing:0.2em;
+	/*letter-spacing: 0.2em;*/
 }
 img {	
-	width: 50%;
+	width: 100%;
 }
 a { 
-	color:black;
+	color: black;
 	text-decoration: none;
 	font-size: 16px;
  }	
 nav {
-	margin:auto;
+	margin: auto;
 	background: #E8E8E8;
 }
 nav a, footer a {
@@ -51,33 +52,35 @@ nav a, footer a {
 }
 ul {
 	margin: auto;
-	padding:30px;
+	padding: 30px;
 }
 li {
 	text-align: center;
-	display:inline;
+	display: inline;
 }
 header {
-	margin-bottom:30px;
+	margin-bottom: 30px;
 	/*background-image: url("../images/terrazzo_background.png");*/
-	background:#C8C1C1;
-	background-size:cover;
+	background: #C8C1C1;
+	background-size: cover;
 }
 footer {
-	background-color:#E8E8E8;
-	margin-top:20px;
+	background-color: #E8E8E8;
 }
 section.product {
 	padding-bottom:50px;
+	/*width: 100%;*/
+	margin: auto;
+	display: inline-block;
 }
 .button {
 	color:white;
 	background:rgba(0,0,0,0.2);
-	width:100px;
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
 	padding:10px;
+	display: inline-block;
 }
 .button a {
 	margin:30px;
@@ -107,9 +110,10 @@ section.product {
 	background-color:#CEF1FF;
 	padding: 50px 0px;
 	background-image: url("../images/luiny_shells.jpeg");
-	width:50%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family:"Crimson Text";
-	margin:auto;
+	margin: auto;
 }
 a:hover {
 	color:gray;
