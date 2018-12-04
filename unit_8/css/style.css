@@ -16,6 +16,8 @@ h1 {
 	font-weight: bold;
 	padding: 1.5em;
 	letter-spacing: 0.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 h3 {
 	padding-top:  3em;
@@ -45,7 +47,7 @@ nav {
 	padding: 2em;
 }
 footer {
-	background-color: #E8E8E8;
+	background-color: #FFFFFF;
 	padding: 2em;
 	margin: auto;
 }
@@ -86,7 +88,7 @@ nav a, footer a {
 }
 .cart_right a, .cart_left a {
 	padding:1em;
-	color: #a8a8a8;
+	color: #000000;
 	font-family: "Crimson Text", Georgia, serif;
 }
 .cart_left {
@@ -151,7 +153,7 @@ nav a, footer a {
 	nav {
 		padding: 1em;
 	}
-	footer {
+	footer a {
 		padding: 1em;
 	}
 }
@@ -172,11 +174,48 @@ nav a, footer a {
 		display: none;
 	}
 }
+@media only screen and (max-width: 800px){
+	footer a {
+		padding: 0.9em;
+		display: inline-block;
+	}
+	}
 @media only screen and (max-width: 670px){
 	#all_objects {
 		display: none;
 	}
-@media only screen and (max-width: 400px){
+	h3 {
+		font-size: 1em;
+	}
+	footer a {
+		display: block;
+		margin: 0;
+	}
+	footer {
+		margin: 0;
+	}
+	.welcome p, #about p {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 500px){
+	nav a {
+		padding: 0.9em;
+		}	
+	footer a {
+		padding: 0.9em;
+	}	
+	h1 {
+		padding: 1em;
+	}	
+}
+@media only screen and (max-width: 320px){
+	nav a {
+		padding: 0.7em;
+		}	
+}	
+
+/*@media only screen and (max-width: 500px){
 	nav a {
 		display: none;
 		background: #FFBDEF;
@@ -217,4 +256,4 @@ nav a, footer a {
 	h3 {
 		font-size: 0.8em;
 	}
-}
+}*/
