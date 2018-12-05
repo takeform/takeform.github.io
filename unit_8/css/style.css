@@ -57,11 +57,6 @@ nav a, footer a {
 	letter-spacing: 0.15em;
 	margin: auto;
 }
-.product {
-	padding: 8em;
-	margin: auto;
-	display: inline-block;
-}
 .product p {
 	padding: 1em;
 }
