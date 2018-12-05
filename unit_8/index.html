@@ -100,11 +100,11 @@
 		});
 	</script> -->
 	<script>
-		imagesLoaded( document.querySelector('#two_column'), function(instance) {
+		imagesLoaded( document.querySelector('#two_column'), function() {
 			console.log('images loaded');
 			var elem = document.querySelector('.grid');
 			var msnry = new Masonry(elem, {
-				itemSelector: 'grid-item'
+				itemSelector: '.grid-item'
 			});
 		});
 	</script>
