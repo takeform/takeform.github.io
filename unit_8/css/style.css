@@ -149,7 +149,10 @@ nav a, footer a {
 #mobile_bag {
 	display: none;
 }
-@media only screen and (max-width: 1000px){
+.grid-sizer,
+.grid-item { width: 50%; }
+/* 2 columns */
+.grid-item--width2 { width: 40%; }@media only screen and (max-width: 1000px){
 	nav {
 		padding: 1em;
 	}
