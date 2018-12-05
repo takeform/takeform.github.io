@@ -87,7 +87,7 @@
 	</footer>
 	<script src="masonry.pkgd.min.js"></script>
 	<script src="imagesloaded.pkgd.min.js"></script>
-	<script>
+	<!-- <script>
 		var $grid = $('.grid').imagesLoaded( function() {
   // init Masonry after all images have loaded
 			$('.grid').masonry({
@@ -96,6 +96,15 @@
 			  // use element for option
 			  //columnWidth: '.grid-sizer',
 			  percentPosition: true
+			});
+		});
+	</script> -->
+	<script>
+		imagesLoaded( document.querySelector('#two_column"), function(instance) {
+			console.log('images loaded');
+			var elem = document.querySelector('.grid');
+			var msnry = new Masonry(elem, {
+				itemSelector: 'grid-item'
 			});
 		});
 	</script>
