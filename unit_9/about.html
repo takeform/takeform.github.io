@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initialscale=1">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<title>take form - shop a curated collection of found objects</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="clearfix">
+			<div class="cart_left">
+				<a href="about.html">about</a>
+				<a href="http://www.instagram.com/take_form" target="_blank">instagram</a>
+			</div>
+			<div class="cart_right">
+				<a id="bag" href="bag.html">bag [0]</a>
+				<a id="mobile_bag" href="bag.html"><img src="images/bag_icon.png"></a>
+			</div>
+		</div>
+		<h1>TAKE FORM</h1>
+		<nav>
+			<a href="#" id="mobile">&#9776;</a>
+			<a href="#" id="all_objects"><span class="shop">shop </span>all objects</a>
+			<a href="#"><span class="shop">shop </span>glass</a>
+			<a href="#"><span class="shop">shop </span>ceramic</a>
+			<a href="#"><span class="shop">shop </span>wood</a>
+			<a href="#"><span class="shop">shop </span>metal</a>
+		</nav>
+	</header>
+	<div id="main_box">
+	<h2>about take form</h2>
+			<p>a sustainable way to decorate your home. look into our sourcing journey and learn about the brand</p>
+			<p>items are sourced and collected from a variety of locations.</p>
+		</div>
+	<footer>
+			<a href="#">t&c</a>
+			<a href="#">privacy</a>
+			<a href="#">delivery</a>
+			<a href="mailto:emily@wolfandbadger.com?subject=question about take form">contact</a>
+			<a href="about.html">about</a>
+			<a href="http://www.instagram.com/take_form" target="_blank">instagram</a>
+	</footer>
+	<script src="masonry.pkgd.min.js"></script>
+	<script src="imagesloaded.pkgd.min.js"></script>
+	<!-- <script>
+		var $grid = $('.grid').imagesLoaded( function() {
+  // init Masonry after all images have loaded
+			$('.grid').masonry({
+			  // set itemSelector so .grid-sizer is not used in layout
+			  itemSelector: '.grid-item',
+			  // use element for option
+			  //columnWidth: '.grid-sizer',
+			  percentPosition: true
+			});
+		});
+	</script> -->
+	<script>
+		imagesLoaded( document.querySelector('#two_column'), function() {
+			console.log('images loaded');
+			var elem = document.querySelector('.grid');
+			var msnry = new Masonry(elem, {
+				itemSelector: '.grid-item'
+			});
+		});
+	</script>
+</body>
+</html>
+

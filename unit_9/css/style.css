@@ -57,9 +57,16 @@ nav a, footer a {
 	letter-spacing: 0.15em;
 	margin: auto;
 }
-
 #hero img {
 	width: 32%;
+}
+#main_box {
+	width: 75%;
+	padding: 3em;
+	margin: auto;
+}
+#main_box p {
+	font-family: "Crimson Text", Georgia, serif;
 }
 .product p {
 	padding: 1em;
@@ -161,7 +168,7 @@ nav a, footer a {
 	display: none;
 }
 .product {
-	padding: 20px;
+	padding: 2em;
 }
 .grid-sizer, .grid-item {
 	width: 50%; 
