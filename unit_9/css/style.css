@@ -38,6 +38,12 @@ img {
 header {
 	margin-bottom: 0;
 	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
 }
 nav {
 	margin: auto;
@@ -56,6 +62,9 @@ nav a, footer a {
 	font-family: Futura, Helvetica, Arial, sans-serif;
 	letter-spacing: 0.15em;
 	margin: auto;
+}
+div#hero {
+	padding-top: 13em;
 }
 #hero img {
 	width: 32%;
