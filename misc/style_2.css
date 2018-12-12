@@ -1,0 +1,18 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	/*border: 2px solid black;*/
+}
+img {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+header {
+	background-image: url("../images/terrazzo_background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
